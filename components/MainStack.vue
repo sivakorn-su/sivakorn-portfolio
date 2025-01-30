@@ -43,7 +43,7 @@ export default {
         {name: 'Svelte', icon: '/icons/Laravel.svg'}
       ],
       secondaryTechs: [
-        {name: 'Next.js', icon: '/icons/nodejs.svg'},
+        {name: 'Next.js', icon: '/icons/NodeJs.svg'},
         {name: 'Astro', icon: '/icons/NestJS.svg'},
         {name: 'Firebase', icon: '/icons/tailwindcss.svg'},
         {name: 'Laravel', icon: '/icons/dotnet.svg'},
