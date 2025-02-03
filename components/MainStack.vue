@@ -18,13 +18,6 @@
           <img :alt="tech.name" :src="tech.icon" class="w-full h-full object-contain">
         </div>
       </div>
-
-      <!-- More skills button -->
-      <div class="text-center">
-        <button class="px-6 py-3 rounded-full bg-white shadow-sm hover:shadow-md transition-shadow">
-          + 16 MORE SKILLS
-        </button>
-      </div>
     </div>
   </section>
 </template>

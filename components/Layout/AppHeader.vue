@@ -5,8 +5,8 @@
         <!-- Logo -->
         <div class="flex items-center">
           <router-link class="flex items-center" to="/">
-            <div class="bg-black text-white font-bold py-2 px-4 rounded">
-              SSDX
+            <div class="text-black font-bold py-2 px-4 rounded">
+              🧑‍💻 Sivakorn Suttisom
             </div>
           </router-link>
         </div>
@@ -83,7 +83,7 @@ const isDark = ref(false);
 
 const navItems = [
   {name: 'Home', path: '/'},
-  {name: 'Skills', path: '/skills'},
+  {name: 'AboutUs', path: '/about-us'},
   {name: 'Projects', path: '/projects'}
 ];
 

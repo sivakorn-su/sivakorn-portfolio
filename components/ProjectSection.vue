@@ -16,8 +16,7 @@
           <div class="flex flex-wrap gap-2">
             <span v-for="tag in project.tags"
                   :key="tag"
-                  :class="getTagColor(tag)"
-                  class="px-3 py-1 text-xs font-medium rounded-full">
+                  class="px-3 py-1 text-xs font-medium rounded-full bg-amber-400 text-black">
               {{ tag }}
             </span>
           </div>
@@ -70,30 +69,30 @@ const handleMouseLeave = (e) => {
 const projects = [
   {
     id: 1,
-    type: 'Demo',
-    date: '30-June-2023',
-    title: 'FairSheets.com',
-    tags: ['NUXT.JS', 'POSTGRESQL', 'FIREBASE AUTH'],
-    icon: '/fairsheets-icon.svg',
-    description: 'My Hobbie app'
+    type: 'Complete at',
+    date: 'Sep-2022',
+    title: 'Weather Report',
+    tags: ['ASP.Net MVC', 'Javascript', 'MSSQL', 'HTML', 'CSS'],
+    icon: '/icons/blcp_power_limited_logo.jpg',
+    description: 'Project Intern'
   },
   {
     id: 2,
     type: 'Complete at',
-    date: '10-May-2024',
-    title: 'Leaves management system',
-    tags: ['LARAVEL', 'MYSQL', 'MANAGEMENT SYSTEM'],
-    icon: '/leaves-icon.svg',
-    description: 'Final project of Com-Sci'
+    date: 'May-2023',
+    title: 'Meeting room booking management system',
+    tags: ['MANAGEMENT SYSTEM', 'HTML', 'Tailwind CSS', 'Javascript', 'PHP', 'MSSQL'],
+    icon: '/icons/meeting-interview-svgrepo-com.svg',
+    description: 'Final project of IT'
   },
   {
     id: 3,
     type: 'Article',
     date: '20-June-2023',
-    title: 'Emojy (Web App)',
+    title: 'Comparison of Japanese sounds using dynamic time warping',
     tags: ['NUXT.JS', 'FIRESTONE', 'TAILWIND'],
-    icon: '/emojy-icon.svg',
-    description: 'Little tools for font-end'
+    icon: '/icons/japan-svgrepo-com.svg',
+    description: 'Project Intern'
   }
 ];
 

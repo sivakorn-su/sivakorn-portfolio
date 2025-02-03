@@ -7,9 +7,10 @@
           Hi, I'm Note<span class="wave-emoji">👋</span>
         </h1>
         <p class="text-gray-700 mb-6 leading-relaxed">
-          I'm a full stack developer (React.js & Node.js) with a focus on creating (and occasionally designing)
-          exceptional digital experiences that are fast, accessible, visually appealing, and responsive. Even
-          though I have been creating web applications for over 7 years, I still love it as if it was something new.
+          I'm a backend engineer specializing in PHP (Laravel), Node.js (NestJS), and ASP.NET MVC, with a passion for
+          building functional, user-friendly, and scalable web applications. I thrive on solving complex problems,
+          optimizing performance, and staying up to date with emerging technologies. Even with over a year of
+          experience, I remain eager to learn, innovate, and create impactful digital solutions.
         </p>
 
         <div class="flex items-center gap-2 mb-4">
@@ -47,11 +48,11 @@
 
       <!-- Right content - Profile Image -->
       <div class="w-full md:w-80">
-        <div class="relative">
+        <div class="relative ">
           <img
               alt="Profile"
-              class="w-full h-auto "
-              src="/public/profile-image.jpg"
+              class="w-full h-auto rounded-full"
+              src="/public/icons/image_cropped.png"
           />
         </div>
       </div>
