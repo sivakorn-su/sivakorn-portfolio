@@ -4,6 +4,9 @@ export default defineNuxtConfig({
     colorMode: {
         preference: "ligth"
     },
+    build: {
+        transpile: ['gsap']
+    },
     devtools: {enabled: true},
     modules: ['@nuxt/ui', '@nuxtjs/i18n', '@nuxtjs/tailwindcss']
 })
