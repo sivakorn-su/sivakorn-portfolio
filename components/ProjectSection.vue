@@ -88,9 +88,9 @@ const projects = [
   {
     id: 3,
     type: 'Article',
-    date: '20-June-2023',
+    date: 'Dec-2023',
     title: 'Comparison of Japanese sounds using dynamic time warping',
-    tags: ['NUXT.JS', 'FIRESTONE', 'TAILWIND'],
+    tags: ['Dynamic Time Warping'],
     icon: '/icons/japan-svgrepo-com.svg',
     description: 'Project Intern'
   }
