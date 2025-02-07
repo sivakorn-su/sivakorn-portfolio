@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
     compatibilityDate: '2024-11-01',
     colorMode: {
-        preference: "ligth"
+        preference: "light"
     },
     build: {
         transpile: ['gsap']
