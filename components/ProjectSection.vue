@@ -87,7 +87,7 @@ const projects = [
   },
   {
     id: 3,
-    type: 'Article',
+    type: 'Complete at',
     date: 'Dec-2023',
     title: 'Comparison of Japanese sounds using dynamic time warping',
     tags: ['Dynamic Time Warping'],
