@@ -3,7 +3,7 @@ const projectList = ref([
   {
     'id': 1,
     'label': 'MYWAWA',
-    'description': 'WEB-SITE E-Commerce',
+    'description': 'Website E-Commerce',
     'image': './project/MYWAWA.png',
     'link': 'https://www.mywawa.me/',
   },
@@ -17,21 +17,21 @@ const projectList = ref([
   {
     'id': 3,
     'label': 'Wawa Province',
-    'description': 'WEB-SITE E-Commerce For FTI',
+    'description': 'Website E-Commerce For FTI',
     'image': './project/Wawa Province.png',
     'link': 'https://www.mywawa.me/wawaprovince',
   },
   {
     'id': 4,
     'label': 'THAI_KK',
-    'description': 'WEB-SITE E-Commerce',
+    'description': 'Website E-Commerce',
     'image': './project/THAI_KK.png',
     'link': 'https://www.thaikk-shop.com/',
   },
   {
     'id': 5,
     'label': 'TCRSS',
-    'description': 'INFORMATIVE WEB-SITE',
+    'description': 'INFORMATIVE Website',
     'image': './project/TCRSS.png',
     'link': 'https://staging.tcrss.com/',
   },
