@@ -20,18 +20,19 @@ defineProps<Prop>()
       <h4 class="font-medium group-hover:text-purple-500 transition-colors">
         {{ item.label }}
       </h4>
-      <p class="text-gray-600 dark:text-gray-300 text-sm">
+      <p class="text-gray-600  text-sm">
         {{ item.description }}
       </p>
     </div>
-    <div class="mt-4">
-      <UButton
-          class="w-full group-hover:bg-purple-50 dark:group-hover:bg-purple-900/20"
-          color="purple"
-          variant="ghost"
+    <div class="mt-4 text-right">
+      <a
+          :href="item.link"
+          class="group-hover:bg-purple-50 text-purple-500  rounded-lg py-2 px-4 inline-block transition-colors"
+          rel="noopener noreferrer"
+          target="_blank"
       >
         View Project
-      </UButton>
+      </a>
     </div>
   </UCard>
 </template>

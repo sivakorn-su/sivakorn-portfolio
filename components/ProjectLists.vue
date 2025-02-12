@@ -12,7 +12,7 @@ const projectList = ref([
     'label': 'WAWA-X',
     'description': 'SOFTWARE HOUSE',
     'image': './project/WAWA-X.png',
-    'link': 'https://www.wawa-x.com/en',
+    'link': 'https://www.wawa-x.com/',
   },
   {
     'id': 3,
@@ -40,6 +40,7 @@ const projectList = ref([
 
 <template>
   <div class="px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto py-12 lg:py-24 justify-center items-center ">
+
     <div class="grid grid-cols-1 lg:gap-4 lg:grid-cols-3 ">
       <ProjectCard
           v-for="(item, index) in projectList"

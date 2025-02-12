@@ -19,32 +19,20 @@
   </div>
 </template>
 
-<script>
-import {defineComponent} from "vue";
-import ProjectSection from "~/components/ProjectSection.vue";
-import ProjectSlider from "~/components/ProjectSlider.vue";
-import Intro from "~/components/Intro.vue";
-import MainStack from "~/components/MainStack.vue";
-import HeroSection from "~/components/HeroSection.vue";
+<script setup>
+const isLoading = ref(false);
 
-export default defineComponent({
-  components: {
-    Intro,
-    ProjectSlider,
-    ProjectSection,
-    MainStack,
-    HeroSection
-  },
-  data() {
-    return {
-      isLoading: true,
-    };
-  },
-  mounted() {
-    setTimeout(() => {
-      this.isLoading = false;
-    }, 2000);
-  },
+onMounted(() => {
+  if (typeof window !== 'undefined') {
+    isLoading.value = localStorage.getItem('hasVisited') !== 'true';
+
+    if (!localStorage.getItem('hasVisited')) {
+      setTimeout(() => {
+        isLoading.value = false;
+        localStorage.setItem('hasVisited', 'true');
+      }, 2000);
+    }
+  }
 });
 </script>
 

@@ -4,6 +4,7 @@ export default defineNuxtConfig({
     colorMode: {
         preference: "light"
     },
+    
     build: {
         transpile: ['gsap']
     },
