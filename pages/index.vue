@@ -30,7 +30,7 @@ onMounted(() => {
       setTimeout(() => {
         isLoading.value = false;
         localStorage.setItem('hasVisited', 'true');
-      }, 2000);
+      }, 3000);
     }
   }
 });
