@@ -5,7 +5,7 @@ import gsap from 'gsap'
 onMounted(() => {
   // Animate the circle moving to the right
   gsap.to(".circle", {
-    x: 700,
+    x: 600,
     duration: 1,
     rotation: 360,
     ease: "power2.out"
@@ -23,7 +23,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="justify-center items-center container">
+  <div class="justify-center items-center container mt-24 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto mb-20">
     <div class="px-10 text-black">
       <h1 class="name-text text-9xl">Sivakorn</h1>
       <h1 class="mx-10 name-text text-9xl">Suttisom</h1>

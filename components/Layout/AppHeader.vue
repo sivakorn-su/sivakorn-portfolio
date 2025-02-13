@@ -37,7 +37,7 @@ const isDark = ref(false);
 
 const navItems = [
   {name: 'Home', path: '/'},
-  {name: 'AboutUs', path: '/about-us'},
+  {name: 'About My Self', path: '/about-my-self'},
   {name: 'Projects', path: '/projects'}
 ];
 

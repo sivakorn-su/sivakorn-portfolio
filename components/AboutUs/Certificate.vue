@@ -1,17 +1,17 @@
 ```vue
 <template>
-  <div class="max-w-5xl mx-auto px-6 text-black">
+  <div class="px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto py-6 lg:py-24 text-black">
     <!-- Main Content -->
-    <div class="py-16">
-      <h1 class="text-5xl font-medium leading-tight mb-12">
+    <div class="py-16 ">
+      <h1 class="text-5xl font-medium leading-tight mb-16 text-center">
         📜 &nbsp; Certificates & Awards &nbsp; 🏆
       </h1>
 
-      <div class="space-y-8 text-xl max-w-2xl">
+      <div class="space-y-6 text-xl justify-center items-center px-5">
         <div class="flex items-center justify-between border-b pb-4">
-          <div class="flex items-center space-x-4">
+          <div class="flex items-center space-x-6">
             <img alt="ARIT Logo" class="w-16 h-16 object-contain" src="/icons/arit.png">
-            <div>
+            <div class="px-4">
               <div class="font-semibold">💻 &nbsp; System Design Analyst Certificate</div>
               <div class="text-gray-600">ARIT Company Limited</div>
             </div>
@@ -24,11 +24,10 @@
             🔗 &nbsp; View Certificate
           </NuxtLink>
         </div>
-
         <div class="flex items-center justify-between border-b pb-4">
           <div class="flex items-center space-x-4">
             <img alt="ICDL Logo" class="w-16 h-16 object-contain" src="/icons/ICDL.svg.png">
-            <div>
+            <div class="px-4">
               <div class="font-semibold">📱 &nbsp; Application Essentials</div>
               <div class="text-gray-600">ICDL</div>
             </div>
