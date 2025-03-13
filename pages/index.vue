@@ -14,12 +14,16 @@
       <HeroSection></HeroSection>
       <ProjectSlider></ProjectSlider>
       <MainStack></MainStack>
+      <certificate></certificate>
       <ProjectSection></ProjectSection>
     </div>
   </div>
 </template>
 
 <script setup>
+import Certificate from "~/components/AboutUs/Certificate.vue";
+import GithubContribution from "~/components/GithubContribution.vue";
+
 const isLoading = ref(false);
 
 onMounted(() => {

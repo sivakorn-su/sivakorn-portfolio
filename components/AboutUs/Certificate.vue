@@ -1,8 +1,8 @@
 ```vue
 <template>
-  <div class="px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto py-6 lg:py-24 text-black">
+  <div class="px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto py-6 text-black">
     <!-- Main Content -->
-    <div class="py-16 ">
+    <div class="py-12">
       <h1 class="text-5xl font-medium leading-tight mb-16 text-center">
         📜 &nbsp; Certificates & Awards &nbsp; 🏆
       </h1>
