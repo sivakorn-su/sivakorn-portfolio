@@ -21,7 +21,7 @@
     "github-calendar": "^2.3.4",
     "gsap": "^3.12.7",
     "marked": "^15.0.7",
-    "nuxt": "^3.15.3",
+    "nuxt": "^3.16.0",
     "nuxt-swiper": "^2.0.0",
     "pinia": "^3.0.1",
     "vue": "latest",
