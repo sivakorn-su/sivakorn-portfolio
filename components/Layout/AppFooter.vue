@@ -10,7 +10,9 @@
       />
       <template #panel>
         <div class="p-4">
-          <chat-component></chat-component>
+          <ClientOnly>
+            <chat-component></chat-component>
+          </ClientOnly>
         </div>
       </template>
     </UPopover>

@@ -25,9 +25,9 @@ onMounted(() => {
 <template>
   <div class="justify-center items-center container mt-24 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto mb-20">
     <div class="px-10 text-black">
-      <h1 class="name-text text-9xl">Sivakorn</h1>
-      <h1 class="mx-10 name-text text-9xl">Suttisom</h1>
-      <div class="name-text underline">Back End Developer</div>
+      <h1 class="name-text text-6xl md:text-9xl">Sivakorn</h1>
+      <h1 class="mx-6 md:mx-10 name-text text-6xl md:text-9xl">Suttisom</h1>
+      <div class="name-text underline">Full-Stack Developer</div>
     </div>
     <svg
         class="circle"

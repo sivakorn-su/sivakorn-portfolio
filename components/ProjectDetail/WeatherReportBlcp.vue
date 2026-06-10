@@ -3,7 +3,7 @@
 
 <template>
   <div class="px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto justify-center items-center">
-    <img alt="BLCP" class="w-full mb-10" src="/public/my-project/BLCP.png">
+    <img alt="BLCP" class="w-full mb-10" src="/my-project/BLCP.png">
 
     <div class="py-12">
       <h1 class="text-3xl font-bold text-indigo-800 mb-8">

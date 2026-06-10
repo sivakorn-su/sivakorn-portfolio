@@ -30,7 +30,7 @@ const userDashboardImages = [
 
 <template>
   <div class="px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto my-auto py-4 sm:py-6 lg:py-24">
-    <img alt="meeting-room" class="w-full mb-10 rounded-lg" src="/public/my-project/meeting-room.png">
+    <img alt="meeting-room" class="w-full mb-10 rounded-lg" src="/my-project/meeting-room.png">
 
     <!-- Main Features Section -->
     <section class="py-12">
@@ -95,7 +95,7 @@ const userDashboardImages = [
       <h2 class="text-3xl font-bold text-indigo-800 mb-6">
         <span aria-hidden="true" class="heading-emoji">👨‍💼</span> Admin Dashboard
       </h2>
-      <img alt="admin-dashboard" class="w-full rounded-lg shadow-md mb-6" src="/public/my-project/admin-dashbord.png">
+      <img alt="admin-dashboard" class="w-full rounded-lg shadow-md mb-6" src="/my-project/admin-dashbord.png">
       <div class="grid grid-cols-1 md:grid-cols-2 gap-4 rounded-lg shadow-md px-6 py-6">
         <h3 class="text-xl font-semibold mb-4">
           <span aria-hidden="true" class="heading-emoji">🎯</span> Admin Responsibilities

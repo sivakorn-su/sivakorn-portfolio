@@ -1,58 +1,45 @@
 <template>
   <section class="px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto py-6 lg:py-24">
-    <h2 class="text-4xl font-bold text-center mb-12"> 🛠️ Main Stacks</h2>
+    <h2 class="text-4xl font-bold text-center mb-12">🛠️ Main Stacks</h2>
 
-    <div class="max-w-4xl mx-auto">
-      <!-- First row -->
-      <div class="flex flex-wrap justify-center gap-6 mb-6">
-        <div v-for="(tech, index) in mainTechs" :key="index"
-             class="w-28 h-28 rounded-xl shadow-sm flex items-center justify-center bg-white p-4 transition-transform hover:scale-110">
-          <img :alt="tech.name" :src="tech.icon" class="w-full h-full object-contain">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <article
+          v-for="group in skillGroups"
+          :key="group.title"
+          class="bg-white rounded-lg border border-gray-100 p-6 shadow-sm"
+      >
+        <h3 class="text-xl font-semibold text-gray-900 mb-4">{{ group.title }}</h3>
+        <div class="flex flex-wrap gap-2">
+          <span
+              v-for="skill in group.skills"
+              :key="skill"
+              class="px-3 py-2 rounded-full bg-amber-100 text-gray-900 text-sm font-medium"
+          >
+            {{ skill }}
+          </span>
         </div>
-      </div>
-
-      <!-- Second row -->
-      <div class="flex flex-wrap justify-center gap-6 mb-8">
-        <div v-for="(tech, index) in secondaryTechs" :key="index"
-             class="w-28 h-28 rounded-xl shadow-sm flex items-center justify-center bg-white p-4 transition-transform hover:scale-110">
-          <img :alt="tech.name" :src="tech.icon" class="w-full h-full object-contain">
-        </div>
-      </div>
+      </article>
     </div>
   </section>
 </template>
 
-<script>
-export default {
-  name: 'StackSection',
-  data() {
-    return {
-      mainTechs: [
-        {name: 'HTML5', icon: '/icons/html5.svg'},
-        {name: 'CSS3', icon: '/icons/css3.svg'},
-        {name: 'Angular', icon: '/icons/Js.svg'},
-        {name: 'Vue.js', icon: '/icons/Vue.svg'},
-        {name: 'React', icon: '/icons/Nuxt.svg'},
-        {name: 'Svelte', icon: '/icons/Laravel.svg'}
-      ],
-      secondaryTechs: [
-        {name: 'Next.js', icon: '/icons/NodeJs.svg'},
-        {name: 'Astro', icon: '/icons/NestJS.svg'},
-        {name: 'Firebase', icon: '/icons/tailwindcss.svg'},
-        {name: 'Laravel', icon: '/icons/dotnet.svg'},
-        {name: 'Node.js', icon: '/icons/python.png'}
-      ]
-    }
+<script lang="ts" setup>
+const skillGroups = [
+  {
+    title: 'Languages',
+    skills: ['HTML', 'CSS', 'JavaScript', 'PHP', 'Python', 'SQL']
+  },
+  {
+    title: 'Frameworks & Libraries',
+    skills: ['Vue.js', 'Nuxt.js', 'Next.js', 'React.js', 'Svelte', 'Laravel', 'FastAPI', 'ASP.NET MVC', 'Tailwind CSS']
+  },
+  {
+    title: 'Databases',
+    skills: ['MSSQL', 'MySQL', 'PostgreSQL']
+  },
+  {
+    title: 'Tools & Platforms',
+    skills: ['Git', 'CI/CD', 'Docker', 'Cloudflare', 'AWS S3']
   }
-}
+];
 </script>
-
-<style scoped>
-.shadow-sm {
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-}
-
-.hover\:shadow-md:hover {
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-</style>

@@ -1,4 +1,3 @@
-```vue
 <template>
   <div class="px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto py-6 text-black">
     <!-- Main Content -->
@@ -48,4 +47,3 @@
 <script lang="ts" setup>
 // No additional logic needed for this component
 </script>
-```

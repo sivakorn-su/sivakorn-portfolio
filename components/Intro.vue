@@ -21,7 +21,7 @@ onMounted(() => {
       <div class="space-y-4 z-10">
         <h1 class="name-text text-8xl md:text-9xl font-bold text-gray-800">Sivakorn</h1>
         <h1 class="name-text text-8xl md:text-9xl font-bold text-gray-800 ml-8 md:ml-10">Suttisom</h1>
-        <div class="name-text text-xl text-gray-600 underline">🧑‍💻 Back End Developer</div>
+        <div class="name-text text-xl text-gray-600 underline">🧑‍💻 Full-Stack Developer</div>
       </div>
       <svg
           class="absolute right-0 top-1/2 -translate-y-1/2 w-96 md:w-[500px] opacity-70"

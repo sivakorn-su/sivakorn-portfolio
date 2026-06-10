@@ -3,6 +3,7 @@
   <div class="px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto my-auto py-4 sm:py-6 lg:py-28 justify-center items-center">
     <introduction></introduction>
     <myself></myself>
+    <Experience></Experience>
     <Certificate></Certificate>
     <DisplayCardLists></DisplayCardLists>
   </div>
@@ -12,6 +13,7 @@
 import Certificate from "~/components/AboutUs/Certificate.vue";
 import Myself from "~/components/AboutUs/Myself.vue";
 import Introduction from "~/components/AboutUs/Introduction.vue";
+import Experience from "~/components/AboutUs/Experience.vue";
 </script>
 
 <style scoped>

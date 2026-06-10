@@ -7,14 +7,14 @@
           Hi, I'm Note<span class="wave-emoji">👋</span>
         </h1>
         <p class="text-gray-700 mb-6 leading-relaxed">
-          I'm a backend engineer specializing in PHP (Laravel), Node.js (NestJS), and ASP.NET MVC, with a passion for
-          building functional, user-friendly, and scalable web applications. I thrive on solving complex problems,
-          optimizing performance, and staying up to date with emerging technologies. Even with over a year of
-          experience, I remain eager to learn, innovate, and create impactful digital solutions.
+          I'm a Full-Stack Developer with over 2 years of professional experience delivering production-grade web
+          applications across backend and frontend systems. My work spans .NET, FastAPI, Next.js, Svelte, Laravel, and
+          Vue.js, with recent focus on AI-powered products including chatbot platforms, image generation tools, API
+          gateways, and meeting transcription services.
         </p>
 
         <div class="flex items-center gap-2 mb-4">
-          <span class="text-gray-600">🇹🇭 Bangkok, Thailand</span>
+          <span class="text-gray-600">🇹🇭 Thailand</span>
         </div>
 
         <div class="flex items-center gap-2 mb-6">
@@ -24,7 +24,7 @@
 
         <!-- Social Links -->
         <div class="flex gap-4">
-          <a class="text-gray-600 hover:text-gray-900" href="https://www.linkedin.com/in/sivakorn-suttisom-01304825b/"
+          <a class="text-gray-600 hover:text-gray-900" href="https://www.linkedin.com/in/sivakorn-suttisom/"
              target="_blank">
             <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
               <path
@@ -47,7 +47,7 @@
           <img
               alt="Profile"
               class="w-full h-auto rounded-full"
-              src="/public/icons/image_cropped.png"
+              src="/icons/image_cropped.png"
           />
         </div>
       </div>

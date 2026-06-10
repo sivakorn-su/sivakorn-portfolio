@@ -10,11 +10,12 @@
       </h2>
       <div class="flex flex-col space-y-6 text-xl max-w-4xl px-5 text-center">
         <p class="text-center">
-          🖥️ &nbsp; Backend Engineer | 🇹🇭 &nbsp; Bangkok
+          🖥️ &nbsp; Full-Stack Developer | 🇹🇭 &nbsp; Thailand
         </p>
         <p>
-          Specializing in PHP (Laravel), Vue.js. &nbsp; 🚀 Building robust web applications and RESTful APIs
-          with passion and precision. &nbsp; 🛠️
+          I build production-grade web applications across backend and frontend systems using .NET, FastAPI, Next.js,
+          Svelte, Laravel, and Vue.js. My recent work includes AI chatbot platforms, image generation tools,
+          API gateways, and speech transcription services.
         </p>
 
         <p class="flex items-center gap-2">

@@ -12,14 +12,35 @@ const cards = ref([]);
 
 // Project emoji mapping
 const projectEmojis = {
+  'Meeting Transcription & Speaker Diarization System': '🎙️',
+  'Thaikk-Shop E-Commerce Platform': '🛒',
   'Weather Report': '🌤️',
-  'Meeting room booking management system': '📅',
   'Comparison of Japanese sounds using dynamic time warping': '🎌'
 };
 
 const projects = [
   {
     id: 1,
+    type: 'Built in',
+    date: '2025',
+    title: 'Meeting Transcription & Speaker Diarization System',
+    tags: ['FastAPI', 'Python', 'Whisper', 'Vue.js', 'Laravel'],
+    icon: '/icons/meeting-interview-svgrepo-com.svg',
+    description: 'AI transcription platform',
+    link: '/my-projects/meeting-transcription',
+  },
+  {
+    id: 2,
+    type: 'Built in',
+    date: '2024',
+    title: 'Thaikk-Shop E-Commerce Platform',
+    tags: ['PHP', 'Laravel', 'Vue.js', 'MySQL'],
+    icon: '/project/THAI_KK.png',
+    description: 'Production e-commerce website',
+    link: 'https://www.thaikk-shop.com/',
+  },
+  {
+    id: 3,
     type: 'Complete at',
     date: 'Sep-2022',
     title: 'Weather Report',
@@ -29,29 +50,24 @@ const projects = [
     link: '/my-projects/weather-report',
   },
   {
-    id: 2,
+    id: 4,
     type: 'Complete at',
-    date: 'May-2023',
-    title: 'Meeting room booking management system',
-    tags: ['MANAGEMENT SYSTEM', 'HTML', 'Tailwind CSS', 'Javascript', 'PHP', 'MSSQL'],
-    icon: '/icons/meeting-interview-svgrepo-com.svg',
-    description: 'Final project of IT',
-    link: '/my-projects/meeting-room',
-  },
-  {
-    id: 3,
-    type: 'Complete at',
-    date: 'Dec-2023',
+    date: 'Dec-2022',
     title: 'Comparison of Japanese sounds using dynamic time warping',
-    tags: ['Dynamic Time Warping'],
+    tags: ['Python', 'Machine Learning', 'Dynamic Time Warping'],
     icon: '/icons/japan-svgrepo-com.svg',
-    description: 'Project Intern',
+    description: 'Speech research project',
     link: '/my-projects/comparison-of-japanese',
   }
 ];
 
 const navigateToProject = (link) => {
   if (link) {
+    if (link.startsWith('http')) {
+      window.open(link, '_blank', 'noopener,noreferrer');
+      return;
+    }
+
     router.push(link);
   }
 };
@@ -85,7 +101,7 @@ const handleMouseLeave = (e) => {
 
     <!-- Desktop View - Grid Layout -->
     <div class="hidden md:block">
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div v-for="project in projects"
              :key="project.id"
              ref="cards"
@@ -103,7 +119,7 @@ const handleMouseLeave = (e) => {
             <div class="flex flex-wrap gap-2">
               <span v-for="tag in project.tags"
                     :key="tag"
-                    class="px-3 py-1 text-xs font-medium rounded-full bg-amber-400 text-black">
+                    class="px-3 py-1 text-xs font-medium rounded-full bg-amber-100 text-black">
                 {{ tag }}
               </span>
             </div>
@@ -148,7 +164,7 @@ const handleMouseLeave = (e) => {
               <div class="flex flex-wrap gap-2">
                 <span v-for="tag in project.tags"
                       :key="tag"
-                      class="px-3 py-1 text-xs font-medium rounded-full bg-amber-400 text-black">
+                      class="px-3 py-1 text-xs font-medium rounded-full bg-amber-100 text-black">
                   {{ tag }}
                 </span>
               </div>

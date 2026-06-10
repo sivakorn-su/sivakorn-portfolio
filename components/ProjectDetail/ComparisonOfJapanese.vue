@@ -24,7 +24,7 @@ const userDashboardImages = [
 
 <template>
   <div class="px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto my-auto py-4 sm:py-6 lg:py-24">
-    <img alt="Japanese DTW Project Header" class="w-full mb-10 rounded-lg shadow-lg" src="/public/my-project/dtw.png">
+    <img alt="Japanese DTW Project Header" class="w-full mb-10 rounded-lg shadow-lg" src="/my-project/dtw.png">
 
     <!-- Main Features Section -->
     <section class="py-12">
@@ -86,7 +86,7 @@ const userDashboardImages = [
           <span>Workflow</span>
         </h2>
         <img alt="Project Workflow Diagram" class="w-full rounded-lg shadow-md py-6"
-             src="/public/my-project/workflow.png">
+             src="/my-project/workflow.png">
       </section>
 
       <!-- Speech Analysis Section -->
@@ -96,7 +96,7 @@ const userDashboardImages = [
           <span>Speech Analysis</span>
         </h2>
         <img alt="Speech Data Transformation" class="w-full rounded-lg shadow-md mb-6"
-             src="/public/my-project/transform-data.png">
+             src="/my-project/transform-data.png">
       </section>
 
       <!-- Dataset Section -->
@@ -106,7 +106,7 @@ const userDashboardImages = [
           <span>Dataset: JVS_ver1</span>
         </h2>
         <img alt="JVS Dataset Overview" class="w-full rounded-lg shadow-md mb-6"
-             src="/public/my-project/dataset.png">
+             src="/my-project/dataset.png">
       </section>
 
       <!-- Voice Recognition Section -->
@@ -116,7 +116,7 @@ const userDashboardImages = [
           <span>Speech Recognition</span>
         </h2>
         <img alt="Vosk Model Speech Recognition" class="w-full rounded-lg shadow-md mb-6"
-             src="/public/my-project/DataPrediction.png">
+             src="/my-project/DataPrediction.png">
         <p class="text-gray-700">
           Using vosk-model-ja-0.22, a specialized toolkit for Japanese speech recognition and analysis.
         </p>
@@ -129,7 +129,7 @@ const userDashboardImages = [
           <span>Intensity & Pitch Conversion</span>
         </h2>
         <img alt="Audio to Intensity and Pitch Transformation" class="w-full rounded-lg shadow-md mb-6"
-             src="/public/my-project/ConvertToIntensityAndPitch.png">
+             src="/my-project/ConvertToIntensityAndPitch.png">
       </section>
 
       <!-- Speaker Comparison Section -->
@@ -139,7 +139,7 @@ const userDashboardImages = [
           <span>Speaker Comparison</span>
         </h2>
         <img alt="Male and Female Speaker Comparison" class="w-full rounded-lg shadow-md mb-6"
-             src="/public/my-project/compear.png">
+             src="/my-project/compear.png">
         <p class="text-gray-700">
           Visual representation of speech patterns between male and female speakers.
         </p>
@@ -152,7 +152,7 @@ const userDashboardImages = [
           <span>Dynamic Time Warping</span>
         </h2>
         <img alt="Dynamic Time Warping Visualization" class="w-full rounded-lg shadow-md mb-6"
-             src="/public/my-project/dtw.png">
+             src="/my-project/dtw.png">
         <p class="text-gray-700 leading-relaxed">
           Dynamic Time Warping is a sophisticated algorithm that measures similarity between time-dependent sequences.
           It calculates the optimal alignment between two series by stretching or compressing segments to accommodate
@@ -167,7 +167,7 @@ const userDashboardImages = [
           <span>Speaker Similarity Heatmap</span>
         </h2>
         <img alt="Speaker Comparison Heatmap" class="w-full rounded-lg shadow-md mb-6"
-             src="/public/my-project/heatmap.png">
+             src="/my-project/heatmap.png">
       </section>
 
       <!-- Results Section -->
@@ -177,7 +177,7 @@ const userDashboardImages = [
           <span>Comparison Results</span>
         </h2>
         <img alt="Final Comparison Results" class="w-full rounded-lg shadow-md mb-6"
-             src="/public/my-project/Result.png">
+             src="/my-project/Result.png">
         <p class="text-gray-700 leading-relaxed">
           The final analysis shows quantifiable similarities and differences between speakers,
           providing valuable feedback for pronunciation practice.
